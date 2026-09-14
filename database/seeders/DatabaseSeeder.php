@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
             HeroSlideSeeder::class,
             ServiceSeeder::class,
             CoreValueSeeder::class,
+            ProductSeeder::class,
             ProjectSeeder::class,
                         SiteSettingsSeeder::class,
                         HomeSectionSeeder::class,

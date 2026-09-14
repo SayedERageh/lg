@@ -12,22 +12,22 @@ class HeroSlideSeeder extends Seeder
         HeroSlide::query()->delete();
 
         HeroSlide::create([
-            'title_ar' => 'معدات مزارع الدواجن بأعلى جودة',
-            'title_en' => 'High-Quality Poultry Farm Equipment',
+            'title_ar' => 'غسالتك LG فيها عطل؟ إحنا نصلحهالك',
+            'title_en' => 'LG Washing Machine Trouble? We Can Fix It',
 
-            'subtitle_ar' => 'المكتب الاستشاري المصري علي زكي',
-            'subtitle_en' => 'Ali Zaki Egyptian Consulting Office',
+            'subtitle_ar' => 'سنيور لصيانة وقطع غيار LG',
+            'subtitle_en' => 'Senior LG Maintenance & Spare Parts',
 
-            'description_ar' => 'نوفر مجموعة متكاملة من معدات مزارع الدواجن، تشمل خطوط الشرب الأوتوماتيك وخطوط العلف وخلايا التبريد، بجودة موثوقة وحلول تناسب احتياجات المزارع الحديثة.',
-            'description_en' => 'We provide a wide range of poultry farm equipment, including automatic drinking lines, feeding systems, and cooling pads, with reliable quality and solutions for modern poultry farms.',
+            'description_ar' => 'خدمات صيانة وإصلاح احترافية لغسالات LG مع سرعة في الاستجابة وتوفير قطع غيار مناسبة لأعمال الإصلاح والصيانة.',
+            'description_en' => 'Professional LG washing machine maintenance and repair services with fast response and reliable spare parts solutions.',
 
             'image' => 'hero-slides/slide-1.jpg',
 
-            'button_text_ar' => 'اكتشف منتجاتنا',
-            'button_text_en' => 'Explore Our Products',
-            'button_url' => '/services',
+            'button_text_ar' => 'اطلب صيانة الآن',
+            'button_text_en' => 'Request Maintenance',
+            'button_url' => '/contact',
 
-            'secondary_button_text_ar' => 'تواصل معنا',
+            'secondary_button_text_ar' => 'اتصل بنا',
             'secondary_button_text_en' => 'Contact Us',
             'secondary_button_url' => '/contact',
 
@@ -36,47 +36,47 @@ class HeroSlideSeeder extends Seeder
         ]);
 
         HeroSlide::create([
-            'title_ar' => 'خطوط شرب أوتوماتيك بنظام الحلمات',
-            'title_en' => 'Automatic Nipple Drinking Lines',
+            'title_ar' => 'صيانة غسالات LG بسرعة واحترافية',
+            'title_en' => 'Fast & Professional LG Washing Machine Service',
 
-            'subtitle_ar' => 'تركي الصنع وأنواع أخرى',
-            'subtitle_en' => 'Turkish Made & Other Options',
+            'subtitle_ar' => 'تشخيص دقيق وإصلاح لمختلف الأعطال',
+            'subtitle_en' => 'Accurate Diagnosis & Professional Repair',
 
-            'description_ar' => 'نوفر خطوط شرب أوتوماتيك بنظام الحلمات بجودة عالية، مع خيارات متعددة تناسب مختلف أنواع ومقاسات مزارع الدواجن.',
-            'description_en' => 'We supply high-quality automatic nipple drinking lines with multiple options suitable for different poultry farm systems and requirements.',
+            'description_ar' => 'فريق من الفنيين ذوي الخبرة لتشخيص أعطال غسالات LG وتنفيذ أعمال الصيانة والإصلاح بكفاءة، مع إمكانية توفير الخدمة في نفس اليوم حسب توافر الفني وموقع العميل.',
+            'description_en' => 'Experienced technicians diagnose and repair LG washing machine problems efficiently, with same-day service available for selected requests depending on technician availability and location.',
 
             'image' => 'hero-slides/slide-2.jpg',
 
-            'button_text_ar' => 'اطلب الآن',
-            'button_text_en' => 'Request Now',
+            'button_text_ar' => 'اطلب فني الآن',
+            'button_text_en' => 'Request a Technician',
             'button_url' => '/contact',
 
-            'secondary_button_text_ar' => 'اعرف المزيد',
-            'secondary_button_text_en' => 'Learn More',
-            'secondary_button_url' => '/about',
+            'secondary_button_text_ar' => 'خدماتنا',
+            'secondary_button_text_en' => 'Our Services',
+            'secondary_button_url' => '/services',
 
             'sort_order' => 2,
             'is_active' => true,
         ]);
 
         HeroSlide::create([
-            'title_ar' => 'خطوط علف Pan Feeder وخلايا التبريد',
-            'title_en' => 'Pan Feeder Lines & Cooling Pads',
+            'title_ar' => 'قطع غيار LG وحلول صيانة موثوقة',
+            'title_en' => 'Reliable LG Spare Parts & Repair Solutions',
 
-            'subtitle_ar' => 'حلول متكاملة لمزارع الدواجن',
-            'subtitle_en' => 'Complete Solutions for Poultry Farms',
+            'subtitle_ar' => 'قطع غيار مناسبة لأعمال الصيانة والإصلاح',
+            'subtitle_en' => 'Suitable Spare Parts for Repair & Maintenance',
 
-            'description_ar' => 'خطوط علف Pan Feeder تركية الصنع، وخلايا تبريد مستوردة ومحلية، بالإضافة إلى مجموعة متنوعة من معدات مزارع الدواجن.',
-            'description_en' => 'Turkish-made Pan Feeder feeding lines, imported and locally manufactured cooling pads, and a wide range of poultry farm equipment.',
+            'description_ar' => 'نوفر قطع غيار لأجهزة LG ونساعدك في اختيار القطعة المناسبة لإصلاح العطل والحفاظ على كفاءة جهازك.',
+            'description_en' => 'We provide LG spare parts and help you find suitable parts for repairs while maintaining your appliance performance.',
 
             'image' => 'hero-slides/slide-3.jpg',
 
-            'button_text_ar' => 'تصفح منتجاتنا',
-            'button_text_en' => 'Browse Our Products',
-            'button_url' => '/services',
+            'button_text_ar' => 'قطع الغيار',
+            'button_text_en' => 'Spare Parts',
+            'button_url' => '/products',
 
-            'secondary_button_text_ar' => 'اطلب عرض سعر',
-            'secondary_button_text_en' => 'Request a Quote',
+            'secondary_button_text_ar' => 'تواصل معنا',
+            'secondary_button_text_en' => 'Contact Us',
             'secondary_button_url' => '/contact',
 
             'sort_order' => 3,
@@ -84,4 +84,3 @@ class HeroSlideSeeder extends Seeder
         ]);
     }
 }
-     

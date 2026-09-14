@@ -19,26 +19,26 @@ class SiteSettingsSeeder extends Seeder
         SiteSetting::updateOrCreate(
             ['id' => 1],
             [
-                'site_name' => 'Ali Zaki Poultry Equipment',
+                'site_name' => 'Senior LG Maintenance & Spare Parts',
 
-                'primary_color' => '#2E7D32',
-                'primary_dark_color' => '#1B5E20',
+                'primary_color' => '#A50034',
+                'primary_dark_color' => '#7D0028',
 
-                'secondary_color' => '#263238',
-                'secondary_dark_color' => '#37474F',
+                'secondary_color' => '#1F1F1F',
+                'secondary_dark_color' => '#111111',
 
-                'light_blue_color' => '#E8F5E9',
-                'light_color' => '#F7FAF7',
+                'light_blue_color' => '#FCEEF2',
+                'light_color' => '#FAFAFA',
 
                 'white_color' => '#FFFFFF',
 
-                'text_color' => '#263238',
-                'muted_color' => '#6B777C',
+                'text_color' => '#222222',
+                'muted_color' => '#6B6B6B',
 
-                'border_color' => '#DDE5DF',
+                'border_color' => '#E5E5E5',
 
                 'site_description' =>
-                    'المكتب الاستشاري المصري علي زكي لمعدات مزارع الدواجن، متخصص في توريد خطوط الشرب الأوتوماتيك وخطوط العلف وخلايا التبريد ومعدات مزارع الدواجن.',
+                    'سنيور لصيانة وقطع غيار LG، متخصصون في صيانة وإصلاح غسالات LG وتوفير قطع الغيار المناسبة، مع سرعة الاستجابة وجودة الخدمة.',
             ]
         );
 
@@ -59,34 +59,34 @@ class SiteSettingsSeeder extends Seeder
 
             'home' => [
                 'title_ar' =>
-                    'المكتب الاستشاري المصري علي زكي | معدات مزارع الدواجن',
+                    'سنيور لصيانة وقطع غيار LG | صيانة غسالات LG',
 
                 'title_en' =>
-                    'Ali Zaki | Poultry Farm Equipment',
+                    'Senior LG Maintenance & Spare Parts | LG Washing Machine Repair',
 
                 'description_ar' =>
-                    'المكتب الاستشاري المصري علي زكي لمعدات مزارع الدواجن، نوفر خطوط شرب أوتوماتيك بنظام الحلمات، خطوط علف Pan Feeder، خلايا تبريد ومعدات متنوعة لمزارع الدواجن.',
+                    'سنيور لصيانة وقطع غيار LG متخصص في صيانة وإصلاح غسالات LG وتشخيص الأعطال وتوفير قطع الغيار المناسبة، مع سرعة الاستجابة وخدمة صيانة احترافية.',
 
                 'description_en' =>
-                    'Ali Zaki Egyptian Consulting Office specializes in poultry farm equipment, including automatic nipple drinking lines, Pan Feeder feeding lines, cooling pads, and other poultry farm solutions.',
+                    'Senior LG Maintenance & Spare Parts specializes in LG washing machine maintenance, repair, fault diagnosis, and spare parts supply with fast and professional service.',
 
                 'keywords_ar' =>
-                    'معدات مزارع الدواجن, خطوط شرب أوتوماتيك, خطوط شرب حلمات, خطوط علف Pan Feeder, خلايا تبريد, معدات دواجن, تجهيز مزارع الدواجن, علي زكي',
+                    'سنيور لصيانة LG, صيانة غسالات LG, تصليح غسالات LG, مركز صيانة LG, فني غسالات LG, قطع غيار LG, قطع غيار غسالات LG, أعطال غسالات LG',
 
                 'keywords_en' =>
-                    'poultry farm equipment, automatic drinking lines, nipple drinking system, Pan Feeder, cooling pads, poultry equipment, poultry farm solutions, Ali Zaki',
+                    'Senior LG maintenance, LG washing machine maintenance, LG washing machine repair, LG service, LG technician, LG spare parts, LG washing machine spare parts',
 
                 'og_title_ar' =>
-                    'المكتب الاستشاري المصري علي زكي لمعدات مزارع الدواجن',
+                    'سنيور لصيانة وقطع غيار LG | صيانة غسالات LG',
 
                 'og_title_en' =>
-                    'Ali Zaki Poultry Farm Equipment',
+                    'Senior LG Maintenance & Spare Parts',
 
                 'og_description_ar' =>
-                    'معدات وحلول موثوقة لمزارع الدواجن، تشمل خطوط الشرب وخطوط العلف وخلايا التبريد.',
+                    'صيانة وإصلاح غسالات LG وتوفير قطع الغيار المناسبة مع سرعة الاستجابة وخدمة احترافية.',
 
                 'og_description_en' =>
-                    'Reliable poultry farm equipment and solutions including drinking lines, feeding systems, and cooling pads.',
+                    'Professional LG washing machine maintenance, repair, and spare parts services with fast response.',
             ],
 
 
@@ -98,112 +98,112 @@ class SiteSettingsSeeder extends Seeder
 
             'about' => [
                 'title_ar' =>
-                    'من نحن | المكتب الاستشاري المصري علي زكي',
+                    'من نحن | سنيور لصيانة وقطع غيار LG',
 
                 'title_en' =>
-                    'About Us | Ali Zaki Poultry Equipment',
+                    'About Us | Senior LG Maintenance',
 
                 'description_ar' =>
-                    'تعرف على المكتب الاستشاري المصري علي زكي وخبرتنا في توريد معدات وحلول مزارع الدواجن عالية الجودة.',
+                    'تعرف على سنيور لصيانة وقطع غيار LG وخدماتنا في صيانة وإصلاح غسالات LG وتشخيص الأعطال وتوفير قطع الغيار المناسبة.',
 
                 'description_en' =>
-                    'Learn more about Ali Zaki Egyptian Consulting Office and our experience in supplying high-quality poultry farm equipment and solutions.',
+                    'Learn more about Senior LG Maintenance and our services for LG washing machine maintenance, repair, fault diagnosis, and spare parts.',
 
                 'keywords_ar' =>
-                    'من نحن, علي زكي, معدات مزارع الدواجن, شركة معدات دواجن, تجهيز مزارع الدواجن',
+                    'من نحن, سنيور LG, سنيور للصيانة, صيانة LG, صيانة غسالات LG, قطع غيار LG',
 
                 'keywords_en' =>
-                    'about Ali Zaki, poultry equipment company, poultry farm equipment, poultry farm solutions',
+                    'about Senior LG, Senior maintenance, LG maintenance, LG washing machine repair, LG spare parts',
 
                 'og_title_ar' =>
-                    'من نحن - علي زكي لمعدات مزارع الدواجن',
+                    'من نحن - سنيور لصيانة وقطع غيار LG',
 
                 'og_title_en' =>
-                    'About Ali Zaki Poultry Equipment',
+                    'About Senior LG Maintenance',
 
                 'og_description_ar' =>
-                    'تعرف على خبرتنا ومنتجاتنا وحلولنا في مجال معدات مزارع الدواجن.',
+                    'تعرف على خدمات سنيور في صيانة وإصلاح غسالات LG وتوفير قطع الغيار.',
 
                 'og_description_en' =>
-                    'Learn about our experience, products, and solutions for poultry farms.',
+                    'Learn about Senior LG maintenance, repair, and spare parts services.',
             ],
 
 
             /*
             |--------------------------------------------------------------------------
-            | Services / Products
+            | Services
             |--------------------------------------------------------------------------
             */
 
             'services' => [
                 'title_ar' =>
-                    'منتجاتنا | معدات مزارع الدواجن | علي زكي',
+                    'خدمات صيانة LG | سنيور لصيانة غسالات LG',
 
                 'title_en' =>
-                    'Products | Poultry Farm Equipment | Ali Zaki',
+                    'LG Maintenance Services | Senior',
 
                 'description_ar' =>
-                    'اكتشف منتجات ومعدات مزارع الدواجن التي نوفرها، بما في ذلك خطوط الشرب الأوتوماتيك وخطوط العلف Pan Feeder وخلايا التبريد.',
+                    'اكتشف خدمات سنيور لصيانة غسالات LG، بداية من كشف وتشخيص الأعطال وإصلاح الغسالات وحتى توفير قطع الغيار وخدمة الصيانة السريعة.',
 
                 'description_en' =>
-                    'Explore our poultry farm equipment, including automatic drinking lines, Pan Feeder feeding lines, cooling pads, and other poultry solutions.',
+                    'Explore Senior LG maintenance services, including fault diagnosis, washing machine repair, spare parts supply, and fast maintenance service.',
 
                 'keywords_ar' =>
-                    'منتجات دواجن, معدات دواجن, خطوط شرب, خطوط علف, Pan Feeder, خلايا تبريد, معدات مزارع',
+                    'خدمات صيانة LG, صيانة غسالات LG, إصلاح غسالات LG, كشف أعطال LG, تشخيص أعطال LG, قطع غيار LG',
 
                 'keywords_en' =>
-                    'poultry products, poultry equipment, drinking lines, feeding lines, Pan Feeder, cooling pads',
+                    'LG maintenance services, LG washing machine repair, LG fault diagnosis, LG spare parts, LG service',
 
                 'og_title_ar' =>
-                    'منتجاتنا - معدات مزارع الدواجن',
+                    'خدماتنا - صيانة وإصلاح غسالات LG',
 
                 'og_title_en' =>
-                    'Our Products - Poultry Farm Equipment',
+                    'Our LG Maintenance Services',
 
                 'og_description_ar' =>
-                    'مجموعة من معدات وحلول مزارع الدواجن عالية الجودة.',
+                    'خدمات متكاملة لصيانة وإصلاح غسالات LG وتوفير قطع الغيار المناسبة.',
 
                 'og_description_en' =>
-                    'A range of high-quality poultry farm equipment and solutions.',
+                    'Complete LG washing machine maintenance, repair, and spare parts services.',
             ],
 
 
             /*
             |--------------------------------------------------------------------------
-            | Projects / Solutions
+            | Projects
             |--------------------------------------------------------------------------
             */
 
             'projects' => [
                 'title_ar' =>
-                    'حلول مزارع الدواجن | علي زكي',
+                    'أعمال صيانة غسالات LG | سنيور',
 
                 'title_en' =>
-                    'Poultry Farm Solutions | Ali Zaki',
+                    'LG Maintenance Projects | Senior',
 
                 'description_ar' =>
-                    'اكتشف حلول ومعدات مزارع الدواجن التي يوفرها المكتب الاستشاري المصري علي زكي لتلبية احتياجات المزارع الحديثة.',
+                    'تعرف على نماذج من أعمال وخدمات سنيور في صيانة وإصلاح غسالات LG وتوفير قطع الغيار وحلول الأعطال المختلفة.',
 
                 'description_en' =>
-                    'Explore poultry farm equipment and solutions provided by Ali Zaki to meet the requirements of modern poultry farms.',
+                    'Explore examples of Senior LG maintenance and repair services, spare parts supply, and solutions for various washing machine faults.',
 
                 'keywords_ar' =>
-                    'حلول مزارع الدواجن, معدات مزارع, تجهيز مزارع الدواجن, معدات دواجن, علي زكي',
+                    'أعمال صيانة LG, صيانة غسالات, إصلاح غسالات LG, أعطال LG, قطع غيار غسالات LG, سنيور LG',
 
                 'keywords_en' =>
-                    'poultry farm solutions, poultry equipment, poultry farm setup, Ali Zaki',
+                    'LG maintenance projects, LG washing machine repair, LG faults, LG spare parts, Senior LG',
 
                 'og_title_ar' =>
-                    'حلول مزارع الدواجن - علي زكي',
+                    'أعمالنا - صيانة غسالات LG',
 
                 'og_title_en' =>
-                    'Poultry Farm Solutions - Ali Zaki',
+                    'Our LG Maintenance Work',
 
                 'og_description_ar' =>
-                    'معدات وحلول متنوعة لتجهيز وتشغيل مزارع الدواجن بكفاءة.',
+                    'نماذج من خدمات صيانة وإصلاح غسالات LG التي نقدمها لعملائنا.',
 
                 'og_description_en' =>
-                    'Reliable equipment and solutions for efficient poultry farm setup and operation.',
+                    'Examples of our LG washing machine maintenance and repair services.',
             ],
 
 
@@ -215,34 +215,34 @@ class SiteSettingsSeeder extends Seeder
 
             'contact' => [
                 'title_ar' =>
-                    'تواصل معنا | علي زكي لمعدات مزارع الدواجن',
+                    'تواصل معنا | سنيور لصيانة وقطع غيار LG',
 
                 'title_en' =>
-                    'Contact Us | Ali Zaki Poultry Equipment',
+                    'Contact Us | Senior LG Maintenance',
 
                 'description_ar' =>
-                    'تواصل مع المكتب الاستشاري المصري علي زكي للاستفسار عن معدات مزارع الدواجن وخطوط الشرب والعلف وخلايا التبريد.',
+                    'تواصل مع سنيور لصيانة وقطع غيار LG لحجز خدمة صيانة غسالتك أو الاستفسار عن الأعطال وقطع الغيار المناسبة.',
 
                 'description_en' =>
-                    'Contact Ali Zaki for inquiries about poultry farm equipment, drinking lines, feeding systems, and cooling pads.',
+                    'Contact Senior LG Maintenance to request washing machine maintenance or inquire about LG faults and suitable spare parts.',
 
                 'keywords_ar' =>
-                    'تواصل معنا, علي زكي, معدات دواجن, خطوط شرب, خطوط علف, خلايا تبريد',
+                    'رقم صيانة LG, تواصل مع سنيور, صيانة غسالات LG, حجز صيانة LG, قطع غيار LG',
 
                 'keywords_en' =>
-                    'contact Ali Zaki, poultry equipment, drinking lines, feeding lines, cooling pads',
+                    'LG maintenance contact, Senior LG contact, LG washing machine service, LG spare parts',
 
                 'og_title_ar' =>
-                    'تواصل معنا - علي زكي لمعدات الدواجن',
+                    'تواصل معنا - سنيور لصيانة وقطع غيار LG',
 
                 'og_title_en' =>
-                    'Contact Us - Ali Zaki Poultry Equipment',
+                    'Contact Senior LG Maintenance',
 
                 'og_description_ar' =>
-                    'تواصل معنا لمعرفة المنتجات المتاحة والحلول المناسبة لمزرعتك.',
+                    'اتصل بنا لحجز صيانة غسالة LG أو الاستفسار عن قطع الغيار والخدمات المتاحة.',
 
                 'og_description_en' =>
-                    'Get in touch with us to learn about available products and the right solutions for your farm.',
+                    'Contact us to request LG washing machine maintenance or inquire about spare parts and available services.',
             ],
         ];
 
@@ -270,4 +270,3 @@ class SiteSettingsSeeder extends Seeder
         }
     }
 }
-        

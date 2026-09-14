@@ -12,97 +12,112 @@ class CompanySettingSeeder extends Seeder
         CompanySetting::updateOrCreate(
             ['id' => 1],
             [
-                'company_name_en' => 'Ali Zaki Poultry Farm Equipment',
-                'company_name_ar' => 'المكتب الاستشاري المصري علي زكي لمعدات مزارع الدواجن',
+                'company_name_en' => 'Senior LG Maintenance & Spare Parts',
+                'company_name_ar' => 'سنيور لصيانة وقطع غيار LG',
 
-                'email' => 'ibrahim.ali@ali-zaki.com',
-                'phone' => '+201210222225',
-                'whatsapp' => '+201210222225',
+                'email' => 'info@senior-lg.com',
+                'phone' => '01025509311',
+                'whatsapp' => '01025509311',
 
                 'about_en' => <<<'TEXT'
-Ali Zaki Egyptian Consulting Office specializes in supplying and providing high-quality equipment and solutions for poultry farms.
+Senior LG Maintenance & Spare Parts specializes in the maintenance, repair, and servicing of LG home appliances.
 
-We offer a wide range of poultry farm equipment, including automatic nipple drinking lines, Pan Feeder feeding lines, cooling pads, and other poultry farming solutions.
+We provide professional maintenance services for LG washing machines and other LG appliances, with experienced technicians capable of diagnosing and repairing a wide range of technical problems.
 
-Our products include Turkish-made drinking and feeding systems, as well as imported and locally manufactured cooling pads and other equipment selected to meet the needs of modern poultry farms.
+We focus on providing fast, reliable, and professional maintenance services to help our customers get their appliances back to normal operation as quickly as possible.
 
-We focus on providing reliable products, high-quality equipment, and practical solutions that help poultry farm owners improve productivity, maintain efficient operations, and achieve better performance.
+Our services include appliance inspection, fault diagnosis, repair, maintenance, and spare parts replacement.
 
-With our experience and commitment to quality, we aim to provide our customers with reliable equipment, professional support, and dependable after-sales service.
+We also provide LG spare parts and focus on supplying reliable parts suitable for the required maintenance and repair.
+
+Our team is committed to quality service, fast response, professional support, and customer satisfaction.
 TEXT,
 
                 'about_ar' => <<<'TEXT'
-المكتب الاستشاري المصري علي زكي متخصص في توريد وتوفير معدات وحلول عالية الجودة لمزارع الدواجن.
+سنيور لصيانة وقطع غيار LG متخصص في صيانة وإصلاح أجهزة LG وتوفير قطع الغيار اللازمة لأعمال الصيانة.
 
-نقدم مجموعة متنوعة من معدات مزارع الدواجن، تشمل خطوط الشرب الأوتوماتيكية بنظام الحلمات، وخطوط العلف بنظام الـ Pan Feeder، وخلايا التبريد، بالإضافة إلى العديد من المعدات والحلول الأخرى التي تناسب احتياجات مزارع الدواجن الحديثة.
+نقدم خدمات صيانة احترافية لغسالات LG وغيرها من أجهزة LG، من خلال فريق من الفنيين ذوي الخبرة في تشخيص الأعطال وإصلاح المشكلات المختلفة بكفاءة وسرعة.
 
-نوفر خطوط شرب أوتوماتيك بنظام الحلمات تركية الصنع، وخطوط علف Pan Feeder تركية الصنع، بالإضافة إلى خلايا تبريد مستوردة ومحلية، مع الحرص على توفير منتجات تتميز بالجودة والاعتمادية.
+نحرص على تقديم خدمة سريعة وموثوقة لمساعدة عملائنا على إعادة أجهزتهم للعمل في أسرع وقت ممكن.
 
-نعمل على توفير معدات موثوقة وحلول عملية تساعد أصحاب المزارع على تحسين كفاءة التشغيل ورفع الإنتاجية وتحقيق أفضل أداء ممكن.
+تشمل خدماتنا فحص الأجهزة، وتشخيص الأعطال، والإصلاح، والصيانة، واستبدال قطع الغيار.
 
-ونضع الجودة والاعتمادية وخدمة العملاء في مقدمة أولوياتنا، مع توفير الدعم والمتابعة وخدمات ما بعد البيع.
+كما نوفر قطع غيار لأجهزة LG، مع الحرص على توفير قطع مناسبة لأعمال الصيانة والإصلاح.
+
+نضع جودة الخدمة وسرعة الاستجابة والدعم الاحترافي ورضا العملاء في مقدمة أولوياتنا.
 TEXT,
 
                 'vision_en' => <<<'TEXT'
-To become a leading and trusted supplier of poultry farm equipment in Egypt and the region, recognized for high-quality products, reliable solutions, professional service, and long-term customer relationships.
+To become a trusted and leading name in LG appliance maintenance and spare parts, recognized for fast service, professional technicians, reliable solutions, and excellent customer support.
 TEXT,
 
                 'vision_ar' => <<<'TEXT'
-أن نصبح من الشركات الرائدة والموثوقة في مجال توريد معدات مزارع الدواجن في مصر والمنطقة، من خلال تقديم منتجات عالية الجودة وحلول موثوقة وخدمة احترافية وبناء علاقات طويلة الأمد مع عملائنا.
+أن نصبح من الأسماء الموثوقة والرائدة في مجال صيانة أجهزة LG وتوفير قطع الغيار، من خلال تقديم خدمة سريعة وحلول موثوقة وفريق فني محترف ودعم متميز للعملاء.
 TEXT,
 
                 'mission_en' => <<<'TEXT'
-Our mission is to provide poultry farm owners with high-quality, reliable, and efficient equipment that meets the requirements of modern poultry production.
+Our mission is to provide LG appliance owners with professional, reliable, and efficient maintenance services.
 
-We are committed to offering trusted products, professional support, fast delivery, and effective after-sales service while continuously improving our products and services to meet our customers' needs.
+We are committed to fast response, accurate fault diagnosis, professional repairs, suitable spare parts, and excellent customer service.
+
+Our goal is to solve appliance problems efficiently and help our customers keep their LG appliances working properly.
 TEXT,
 
                 'mission_ar' => <<<'TEXT'
-مهمتنا هي توفير معدات عالية الجودة وموثوقة وفعالة لأصحاب مزارع الدواجن بما يتناسب مع متطلبات الإنتاج الحديث.
+مهمتنا هي تقديم خدمات صيانة احترافية وموثوقة وفعالة لأصحاب أجهزة LG.
 
-نلتزم بتوفير منتجات موثوقة، ودعم احترافي، وسرعة في التوصيل، وخدمة متميزة بعد البيع، مع العمل المستمر على تطوير منتجاتنا وخدماتنا لتلبية احتياجات عملائنا.
+نلتزم بسرعة الاستجابة، وتشخيص الأعطال بدقة، وتنفيذ أعمال الإصلاح والصيانة باحترافية، وتوفير قطع الغيار المناسبة، مع تقديم خدمة عملاء متميزة.
+
+هدفنا هو حل أعطال الأجهزة بكفاءة ومساعدة عملائنا على الحفاظ على أجهزة LG الخاصة بهم في أفضل حالة تشغيل ممكنة.
 TEXT,
 
                 'commitment_en' => <<<'TEXT'
-We are committed to providing high-quality poultry farm equipment and reliable solutions that our customers can depend on.
+We are committed to providing professional LG maintenance services and reliable spare parts solutions.
 
-Our product range includes:
+Our services include:
 
-- Automatic Nipple Drinking Lines – Turkish Made
-- Pan Feeder Feeding Lines – Turkish Made
-- Cooling Pads – Imported and Locally Manufactured
-- Other Poultry Farm Equipment and Solutions
+- LG Washing Machine Maintenance
+- LG Appliance Repair
+- Fault Diagnosis and Inspection
+- Spare Parts Replacement
+- LG Spare Parts Supply
+- Fast Maintenance Response
+- Professional Technical Support
 
-We believe that quality is the foundation of success. Therefore, we carefully select our products and work to provide reliable equipment, competitive solutions, fast delivery, wide stock availability, and professional after-sales support.
+We focus on quality, speed, reliability, and customer satisfaction.
 
-QUALITY IS THE FOUNDATION OF SUCCESS.
+For selected services, same-day maintenance may be available, subject to technician availability and service location.
 
-Reliable Equipment. Professional Support. Better Performance.
+We also offer a free fault inspection for the first contact of the day, according to the current service offer.
+
+QUALITY SERVICE. RELIABLE SOLUTIONS. PROFESSIONAL SUPPORT.
 TEXT,
 
                 'commitment_ar' => <<<'TEXT'
-نحن ملتزمون بتوفير معدات عالية الجودة وحلول موثوقة لمزارع الدواجن، بما يساعد عملاءنا على تحقيق أفضل أداء وكفاءة في التشغيل.
+نحن ملتزمون بتقديم خدمات صيانة احترافية لأجهزة LG وتوفير حلول موثوقة لقطع الغيار.
 
-تشمل أهم منتجاتنا:
+تشمل أهم خدماتنا:
 
-- خطوط شرب أوتوماتيك بنظام الحلمات – تركي الصنع
-- خطوط علف بنظام Pan Feeder – تركي الصنع
-- خلايا تبريد – مستورد ومحلي
-- مجموعة متنوعة من معدات وحلول مزارع الدواجن
+- صيانة غسالات LG
+- إصلاح أجهزة LG
+- فحص وتشخيص الأعطال
+- تغيير واستبدال قطع الغيار
+- توفير قطع غيار LG
+- سرعة الاستجابة لطلبات الصيانة
+- دعم فني احترافي
 
-نؤمن بأن الجودة هي أساس النجاح، ولذلك نحرص على اختيار منتجات موثوقة وتقديم حلول مناسبة لاحتياجات مزارع الدواجن.
+نحرص على تقديم خدمة تتميز بالجودة والسرعة والاعتمادية ورضا العملاء.
 
-كما نحرص على توفير دعم ما بعد البيع، وسرعة التوصيل، وتوافر مخزون واسع من المنتجات، إلى جانب تقديم خدمة احترافية لعملائنا.
+تتوفر خدمة الصيانة في نفس اليوم لبعض الطلبات وفقًا لتوافر الفني وموقع العميل.
 
-الجودة أساس النجاح.
+كما يتوفر كشف أعطال مجاني لأول اتصال في اليوم وفقًا للعرض الحالي للخدمة.
 
-معدات موثوقة. دعم احترافي. أداء أفضل.
+خدمة بجودة عالية. حلول موثوقة. دعم احترافي.
 TEXT,
 
-                'address_en' => 'Abdel Hamid Abu Haif Street, Heliopolis, Cairo, Egypt',
-                'address_ar' => 'شارع عبد الحميد أبو هيف، هليوبوليس، القاهرة، مصر',
+                'address_en' => 'Egypt',
+                'address_ar' => 'مصر',
             ]
         );
     }
 }
-  
