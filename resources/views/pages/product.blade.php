@@ -13,7 +13,7 @@
             ? $product->description_ar
             : $product->description_en;
 
-        $whatsappNumber = '201210222225';
+        $whatsappNumber = '201025509311';
 
         $message = $isArabic
             ? "السلام عليكم، أريد الاستفسار عن المنتج: {$productName}"
