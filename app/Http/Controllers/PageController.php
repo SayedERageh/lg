@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\CompanySetting;
 use App\Models\CoreValue;
 use App\Models\HeroSlide;
@@ -30,8 +31,23 @@ class PageController extends Controller
                 ->orderBy('sort_order')
                 ->get(),
 
-            // المنتجات المفعلة فقط
+            /*
+            |--------------------------------------------------------------------------
+            | الأقسام
+            |--------------------------------------------------------------------------
+            */
+            'categories' => Category::query()
+                ->where('is_active', true)
+                ->orderBy('sort_order')
+                ->get(),
+
+            /*
+            |--------------------------------------------------------------------------
+            | المنتجات
+            |--------------------------------------------------------------------------
+            */
             'products' => Product::query()
+                ->with('category')
                 ->where('is_active', true)
                 ->orderBy('sort_order')
                 ->get(),
@@ -118,6 +134,7 @@ class PageController extends Controller
         $data = $this->sharedData();
 
         $product = Product::query()
+            ->with('category')
             ->where('slug', $slug)
             ->where('is_active', true)
             ->firstOrFail();
@@ -163,3 +180,4 @@ class PageController extends Controller
         return view('pages.contact', $this->sharedData());
     }
 }
+   

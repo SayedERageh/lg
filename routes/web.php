@@ -73,3 +73,4 @@ Route::get('/contact', [PageController::class, 'contact'])
 
  Route::get('/services/{slug}', [PageController::class, 'service'])
     ->name('services.show');
+    

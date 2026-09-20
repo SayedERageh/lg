@@ -2,7 +2,9 @@
 
 namespace App\Filament\Resources\Products\Schemas;
 
+use App\Models\Category;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
@@ -28,6 +30,15 @@ class ProductForm
                             ->label('اسم المنتج بالإنجليزي')
                             ->required()
                             ->maxLength(255),
+
+                        Select::make('category_id')
+                            ->label('القسم')
+                            ->options(
+                                Category::where('is_active', true)
+                                    ->orderBy('sort_order')
+                                    ->pluck('name_ar', 'id')
+                            )
+                            ->required(),
 
                         TextInput::make('slug')
                             ->label('الرابط')
